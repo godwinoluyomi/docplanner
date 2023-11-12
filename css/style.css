@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.428;
+    color: #333;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+header img {
+    width: 268px;
+    height: 33px;
+}
+
+header > div > a {
+    color: #ababab;
+    text-decoration: none;
+}
+
+header > div > a:hover {
+    color: #00b39b;
+    text-decoration: none;
+}
+
+.navmenu {
+    display: flex;
+    gap: 1.5rem;
+}
+
+section {
+    padding: 30px 150px;
+}
+.introtop {
+
+    justify-items: center;
+}
+.intrologo {
+    width: 37px;
+    height: 37px;
+    margin: 40px auto 0px auto;
+    display: block;
+}
+.introtext {
+    color: #00b39b;
+    font-size: 2.0rem;
+    font-family: "Work Sans", Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+/* Media query for small screens */
+@media screen and (max-width: 576px) {
+    header {
+        display: block;
+        margin: 20px;
+    }
+    section {
+        padding: 20px 10px;
+    }
+
+}
+
+/* Media query for medium screens */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    header {
+        display: block;
+        margin: 40px;
+    }
+    section {
+        padding: 20px 50px;
+    }
+
+}
+
+/* Media query for large screens */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    section {
+        padding: 30px 100px;
+    }
+
+}
+
+/* Media query for extra-large screens */
+@media screen and (min-width: 993px) {
+    section {
+        padding: 30px 150px;
+    }
+
+}
